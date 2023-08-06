@@ -1,0 +1,23 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "This is my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Node js project"
+  },
+  "author": "shahzad malik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
